@@ -21,7 +21,7 @@ source ./emsdk_env.sh
 cd ..
 ```
 
-Clone Echogarden's eSpeak-NG repository and switch to its 'fork' branch:
+Clone [Echogarden's eSpeak-NG fork repository](https://github.com/echogarden-project/espeak-ng) and switch to its 'fork' branch:
 ```
 git clone --branch fork https://github.com/echogarden-project/espeak-ng
 ```
@@ -33,7 +33,6 @@ cd espeak
 ```
 
 If successful, the compiled files should be at:
-
 ```
 espeak-ng/emscripten/espeak-ng.cjs
 espeak-ng/emscripten/espeak-ng.data
