@@ -1,0 +1,24 @@
+{
+  "name": "@echogarden/espeak-ng-emscripten",
+  "version": "0.1.2",
+  "description": "eSpeak-NG speech synthesizer, compiled to JavaScript via Emscripten. Intended for use with Echogarden.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "espeak-ng.cjs",
+  "files": [
+    "espeak-ng.cjs",
+    "espeak-ng.data",
+    "COPYING",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Echogarden project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echogarden-project/espeak-ng-emscripten"
+  },
+  "license": "GPL-3.0-only"
+}
