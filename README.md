@@ -6,6 +6,15 @@ Intended for use with [Echogarden](https://github.com/echogarden-project/echogar
 
 ## How to build
 
+Building is only known to work in Linux. On Windows, use WSL.
+
+Ensure you have essential build tools, like:
+```
+sudo apt install autoconf automake libtool autotools-dev build-essential gcc g++
+```
+
+Ensure you have `python` in path (used by Emscripten).
+
 Clone the EMSDK repository:
 ```
 git clone https://github.com/emscripten-core/emsdk
@@ -28,7 +37,7 @@ git clone --branch fork https://github.com/echogarden-project/espeak-ng
 
 Build eSpeak-NG Emscripten port
 ```
-cd espeak
+cd espeak-ng
 ./build-emscripten.sh
 ```
 
