@@ -43,6 +43,6 @@ cd espeak-ng
 
 If successful, the compiled files should be at:
 ```
-espeak-ng/emscripten/espeak-ng.cjs
+espeak-ng/emscripten/espeak-ng.js
 espeak-ng/emscripten/espeak-ng.data
 ```
