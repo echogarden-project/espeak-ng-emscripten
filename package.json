@@ -1,6 +1,6 @@
 {
 	"name": "@echogarden/espeak-ng-emscripten",
-	"version": "0.3.2",
+	"version": "0.3.3",
 	"description": "eSpeak-NG speech synthesizer, compiled to JavaScript via Emscripten. Intended for use with Echogarden.",
 	"author": "Echogarden project",
 	"license": "GPL-3.0",
